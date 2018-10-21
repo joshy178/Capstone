@@ -2,5 +2,12 @@
 	"name": "Le Epic Social Search Leddit Maymay Extension for Le Social Search OwO~~",
 	"version": "1.0",
 	"description": "The story of 5 Computer Science students and their harrowing journey to survive undergrad",
-	"manifest_version": 2
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["*://google.com/search?*", "*://www.google.com/search?*"],
+			"css": ["style.css"],
+			"js": ["searchPanel.js"]
+		}
+	]
 }

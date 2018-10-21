@@ -1,0 +1,70 @@
+#searchPanel {
+	position: fixed;
+    	right: 10px;
+    	margin-top: 10px;
+    	width: 400px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.16) 2px 2px 2px 0px;
+    	border: none;
+    	border-radius: 2px;
+	background: white;
+	padding: 15px;
+	z-index: 999;
+}
+
+#searchPanel h3 {
+	font-size: 18px;
+}
+
+#searchPanel hr {
+	border: none;
+	border-top: 1px solid rgba(0, 0, 0, 0.16);
+	margin-bottom: 10px;
+}
+
+#searchPanel .entry {
+	margin-bottom: 15px;
+	display: flex;
+}
+
+#searchPanel .entry:last-child {
+	margin-bottom: 0;
+}
+
+#searchPanel .entry a h3 {
+	font-size: 18px;
+}
+
+#searchPanel .entry a, #searchPanel .entry a:visited {
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+#searchPanel .entry a h3:hover {
+	text-decoration: underline;
+}
+
+#searchPanel .entry .linkText {
+	color: #006621;
+}
+
+.voteBox {
+	margin-right: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.voteBox div {
+	flex-grow: 1;
+}
+
+#searchPanel .entry .voteBox div:first-child a {
+	/*color: #34a853;*/
+	color: rgba(0, 0, 0, 0.16)
+}
+
+#searchPanel .entry .voteBox div:last-child a {
+	position: relative;
+	top: 3px;
+	/*color: #ea4335;*/
+	color: rgba(0, 0, 0, 0.16)
+}
